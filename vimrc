@@ -19,3 +19,16 @@ set noexpandtab
 filetype on
 filetype indent on
 filetype plugin on
+filetype off
+ 
+set rtp+=~/.vim/vundle.git/
+call vundle#rc()
+Bundle 'rails.vim'
+Bundle 'vim-ruby/vim-ruby'
+Bundle 'The-NERD-tree'
+Bundle 'project.vim'
+Bundle 'quickrun'
+
+filetype on
+filetype indent on
+filetype plugin on
